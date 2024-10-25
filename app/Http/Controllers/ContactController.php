@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Mail;
 class ContactController extends Controller
 {
 
+    public function welcome()
+    {
+        return view('welcome');
+    }
     public function create()
     {
         return view('emails.contact');

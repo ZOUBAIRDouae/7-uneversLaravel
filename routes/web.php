@@ -7,11 +7,9 @@ use App\Http\Controllers\ContactController;
 
 
 
-Route::get('/', function(){
-    return view('welcome');
-});
 
 
+Route::get('/welcome', [ContactController::class,'welcome']);
 
 Route::get('/contact', [ContactController::class,'create'])->name('contact.create');
 Route::post('/contact', [ContactController::class,'store'])->name('contact.store');

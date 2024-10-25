@@ -15,10 +15,6 @@
         <label for="message">Message :</label>
         <textarea name="message" id="message" required></textarea>
     </div>
-    <div>
-        <label for="message">Descp :</label>
-        <textarea name="descp" id="descp" required></textarea>
-    </div>
     <button type="submit">Envoyer</button>
     
 </form>
